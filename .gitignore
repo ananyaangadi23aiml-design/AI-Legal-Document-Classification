@@ -1,0 +1,23 @@
+﻿venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+uploads/
+reports/
+analytics.json
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Externally downloaded documents - verify redistribution permissions first
+public_legal_source_download/
+
+# Generated inspection and OCR outputs
+ocr_results.csv
+legal_pdf_inventory.csv
+pdf_inspection_report.csv
+public_pdf_screening_report.csv
